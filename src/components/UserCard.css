@@ -1,0 +1,96 @@
+
+/* User Card */
+
+.user-card {
+  width: 100%;
+  max-width: 350px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+
+.user-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.12);
+}
+
+/* Avatar */
+
+.user-avatar {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Name */
+
+.user-card h2 {
+  color: #1e293b;
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+/* Role */
+
+.user-role {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Details */
+
+.user-details {
+  margin-top: 22px;
+  text-align: left;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  color: #475569;
+  font-size: 13px;
+}
+
+.detail-label {
+  color: #1e293b;
+  font-weight: 700;
+}
+
+.email {
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+/* Card Footer */
+
+.card-footer {
+  margin-top: 18px;
+  padding-top: 15px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+}
